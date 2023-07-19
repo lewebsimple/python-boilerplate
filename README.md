@@ -1,7 +1,9 @@
 # Minimal Python project boilerplate
 
-## Development
+
+## Getting started
 
 ```shell
-$ make install-dev
+$ make install
+$ python -m myapp
 ```
