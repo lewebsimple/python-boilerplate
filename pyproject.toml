@@ -1,0 +1,21 @@
+[project]
+name = "python-boilerplate"
+version = "0.1.0"
+authors = [
+  {name = "Pascal Martineau", email = "pascal@lewebsimple.ca"},
+]
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.optional-dependencies]
+dev = [
+  "pip-tools>=7.1.0",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/lewebsimple/python-boilerplate"
+
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
